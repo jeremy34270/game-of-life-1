@@ -121,7 +121,7 @@
                   </executions>
                   <configuration>
                      <testFilesIncluded>
-                     	<jMeterTestFile>gameoflife-100-users.jmx</jmeterTestFile>
+                     	<jMeterTestFile>gameoflife-100-users.jmx</jMeterTestFile>
                      </testFilesIncluded>
                   </configuration>
                </plugin>
