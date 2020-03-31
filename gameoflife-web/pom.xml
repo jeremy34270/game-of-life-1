@@ -59,7 +59,7 @@
             </executions>
          </plugin>
          <plugin>
-            <groupId>org.lazerycode.jmeter</groupId>
+            <groupId>com.lazerycode.jmeter</groupId>
             <artifactId>jmeter-maven-plugin</artifactId>
             <version>2.9.0</version>
             <executions>
