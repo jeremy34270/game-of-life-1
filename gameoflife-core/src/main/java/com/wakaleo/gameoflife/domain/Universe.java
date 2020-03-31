@@ -84,6 +84,10 @@ public class Universe {
         return currentGridContent.getContents();
     }
 
+     public void dummy(){
+        currentGridContent.toString();
+    }
+	
 	// Set cell at given coordinate to LIVE
     public void setLiveCellAt(final int row, final int column) {
         this.currentGridContent.setCellAt(column, row, LIVE_CELL);
