@@ -2,6 +2,7 @@ package com.wakaleo.gameoflife.integration;
 
 import org.junit.Test;
 
+    @Category(Integration.class)
 public class WhenYouStoreGamesInADatabase {
 
     @Test
