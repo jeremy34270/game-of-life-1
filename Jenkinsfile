@@ -15,10 +15,11 @@ pipeline {
       steps {
         bat 'mvn test'
       }
-  }
+    }
     stage('Deploy') {
       steps {
         bat 'mvn deploy'
       }
+    }
   }
 }
