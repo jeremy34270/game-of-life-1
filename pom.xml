@@ -50,7 +50,7 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
-                            <skip>false</skip>
+                            <skip>${skipUT}</skip>
                             <includes>
                                 <include>**/When*.java</include>
                                 <include>**/*Test.java</include>
@@ -64,10 +64,10 @@
                         <id>integration-tests</id>
                         <phase>integration-test</phase>
                         <goals>
-                            <goal>verify</goal>
+                            <goal>test</goal>
                         </goals>
                         <configuration>
-                            <skip>false</skip>
+                            <skip>${skipIT}</skip>
                             <includes>
                                 <include>%regex[.*integration.*]</include>
                             </includes>
